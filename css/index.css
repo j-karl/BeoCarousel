@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  list-style: none;
+}
+
+.box {
+  width: auto;
+  height: auto;
+}
+
+.box .left {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.box .left .shangxia li {
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: 50% 90%;
+  background-repeat: no-repeat;
+  list-style: none;
+  position: absolute;
+  left: 0;
+  background-position: left center;
+}
+
+.box .left .shangxia li.active {
+  display: block;
+  transform: translateX(0);
+}
+
+.box .left .shangxia li.up {
+  display: block;
+  transform: translateY(-100%);
+}
+
+.box .left .shangxia li.down {
+  display: block;
+  transform: translateY(100%);
+}
+
+.box .left .shangxia .demo1 {
+  background-image: url("../img/left/a.jpg");
+  top: 2.39%;
+}
+
+.box .left .shangxia .demo2 {
+  background-image: url("../img/left/b.jpg");
+  top: 102.39%;
+}
+
+.box .left .shangxia .demo3 {
+  background-image: url("../img/left/c.jpg");
+  top: 202.39%;
+}
+
+.box .left .shangxia .demo4 {
+  top: 302.39%;
+  background-image: url("../img/left/d.jpg");
+}
+
+.box .left .shangxia .demo5 {
+  top: 402.39%;
+  background-image: url("../img/left/e.jpg");
+}
+
+.box .left .shangxia .demo6 {
+  top: 502.39%;
+  background-image: url("../img/left/f.jpg");
+}
+
+.box .right {
+  width: 4146px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  overflow: hidden;
+}
+
+.box .right .lunbo {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 0%;
+}
+
+.box .right .lunbo li {
+  float: left;
+  width: 16.6%;
+  overflow: hidden;
+  position: relative;
+  height: 667px;
+  background-size: 100% 90%;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.box .right .lunbo li:nth-child(1) {
+  background-image: url(../img/right/1.jpg);
+}
+
+.box .right .lunbo li:nth-child(2) {
+  background-image: url(../img/right/2.jpg);
+}
+
+.box .right .lunbo li:nth-child(3) {
+  background-image: url(../img/right/3.jpg);
+}
+
+.box .right .lunbo li:nth-child(4) {
+  background-image: url(../img/right/4.jpg);
+}
+
+.box .right .lunbo li:nth-child(5) {
+  background-image: url(../img/right/5.jpg);
+}
+
+.box .right .lunbo li:nth-child(6) {
+  background-image: url(../img/right/6.jpg);
+}
